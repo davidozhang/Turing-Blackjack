@@ -1,0 +1,65 @@
+% May 20, 2011 TIME STAMP
+
+
+
+%This file includes all the picture extraction data for each individual card. The pictures are
+%available through the folder named "cards" 
+
+var cardpics : array 1 .. 52 of int
+
+
+cardpics (1) := Pic.FileNew ("cards/ac.jpg")
+cardpics (2) := Pic.FileNew ("cards/ad.jpg")
+cardpics (3) := Pic.FileNew ("cards/ah.jpg")
+cardpics (4) := Pic.FileNew ("cards/as.jpg")
+cardpics (5) := Pic.FileNew ("cards/2c.jpg")
+cardpics (6) := Pic.FileNew ("cards/2d.jpg")
+cardpics (7) := Pic.FileNew ("cards/2h.jpg")
+cardpics (8) := Pic.FileNew ("cards/2s.jpg")
+cardpics (9) := Pic.FileNew ("cards/3c.jpg")
+cardpics (10) := Pic.FileNew ("cards/3d.jpg")
+cardpics (11) := Pic.FileNew ("cards/3h.jpg")
+cardpics (12) := Pic.FileNew ("cards/3s.jpg")
+cardpics (13) := Pic.FileNew ("cards/4c.jpg")
+cardpics (14) := Pic.FileNew ("cards/4d.jpg")
+cardpics (15) := Pic.FileNew ("cards/4h.jpg")
+cardpics (16) := Pic.FileNew ("cards/4s.jpg")
+cardpics (17) := Pic.FileNew ("cards/5c.jpg")
+cardpics (18) := Pic.FileNew ("cards/5d.jpg")
+cardpics (19) := Pic.FileNew ("cards/5h.jpg")
+cardpics (20) := Pic.FileNew ("cards/5s.jpg")
+cardpics (21) := Pic.FileNew ("cards/6c.jpg")
+cardpics (22) := Pic.FileNew ("cards/6d.jpg")
+cardpics (23) := Pic.FileNew ("cards/6h.jpg")
+cardpics (24) := Pic.FileNew ("cards/6s.jpg")
+cardpics (25) := Pic.FileNew ("cards/7c.jpg")
+cardpics (26) := Pic.FileNew ("cards/7d.jpg")
+cardpics (27) := Pic.FileNew ("cards/7h.jpg")
+cardpics (28) := Pic.FileNew ("cards/7s.jpg")
+cardpics (29) := Pic.FileNew ("cards/8c.jpg")
+cardpics (30) := Pic.FileNew ("cards/8d.jpg")
+cardpics (31) := Pic.FileNew ("cards/8h.jpg")
+cardpics (32) := Pic.FileNew ("cards/8s.jpg")
+cardpics (33) := Pic.FileNew ("cards/9c.jpg")
+cardpics (34) := Pic.FileNew ("cards/9d.jpg")
+cardpics (35) := Pic.FileNew ("cards/9h.jpg")
+cardpics (36) := Pic.FileNew ("cards/9s.jpg")
+cardpics (37) := Pic.FileNew ("cards/tc.jpg")
+cardpics (38) := Pic.FileNew ("cards/td.jpg")
+cardpics (39) := Pic.FileNew ("cards/th.jpg")
+cardpics (40) := Pic.FileNew ("cards/ts.jpg")
+cardpics (41) := Pic.FileNew ("cards/jc.jpg")
+cardpics (42) := Pic.FileNew ("cards/jd.jpg")
+cardpics (43) := Pic.FileNew ("cards/jh.jpg")
+cardpics (44) := Pic.FileNew ("cards/js.jpg")
+cardpics (45) := Pic.FileNew ("cards/qc.jpg")
+cardpics (46) := Pic.FileNew ("cards/qd.jpg")
+cardpics (47) := Pic.FileNew ("cards/qh.jpg")
+cardpics (48) := Pic.FileNew ("cards/qs.jpg")
+cardpics (49) := Pic.FileNew ("cards/kc.jpg")
+cardpics (50) := Pic.FileNew ("cards/kd.jpg")
+cardpics (51) := Pic.FileNew ("cards/kh.jpg")
+cardpics (52) := Pic.FileNew ("cards/ks.jpg")
+% The Unknown_Card is the back image of the card 
+var Unknown_Card : int:=Pic.FileNew ("cards/b.jpg")
+
